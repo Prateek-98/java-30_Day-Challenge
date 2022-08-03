@@ -8,7 +8,7 @@ public class Day4 {
             temp = temp - hotDogsPerPacket;
             coumter += 1;
         }
-        System.out.println("Total no of Packages of HotDogs: " + coumter);
+        System.out.println("Total Packages of HotDogs: " + coumter);
     }
 
 }
