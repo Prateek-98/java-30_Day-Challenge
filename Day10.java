@@ -12,9 +12,9 @@ public class Day10 {
         Scanner enterValue = new Scanner(System.in);
         int totalDistance = enterValue.nextInt();
         int totalDays = enterValue.nextInt();
-        int totalStopesPerDay = enterValue.nextInt();
+        int totalStopsPerDay = enterValue.nextInt();
         try{
-            System.out.println("Average Kilometres between each stop : " + averageKilometres(totalDistance,totalDays,totalStopesPerDay));
+            System.out.println("Average Kilometres between each stop : " + averageKilometres(totalDistance,totalDays,totalStopsPerDay));
         } catch (Exception e) {
             throw new ArithmeticException(e + "Invalid Mathematical values");
         }
